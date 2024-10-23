@@ -8,6 +8,9 @@
 
  *{
     font-family: Inter;
+    /* background: #000; */
+    
+
  }
 
 
@@ -184,4 +187,154 @@
     margin-top: -20px;
     color: rgba(255, 255, 255, 0.65);
 
+}
+
+/* <<<<<<<  Habits Section Styles */
+
+.habits{
+    background: #000;
+
+}
+.habits-title{
+    font-size: 2.625rem;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 88px;
+    color: #FFF;
+    font-weight: 900;
+
+}
+.habits-description{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    padding-bottom: 50px;
+
+
+}
+
+
+.habits-container{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+.habit-img {
+    border-radius: 50%;
+
+}
+.habit{
+    text-align: center;
+}
+.habit-title{
+    color: #FFF;
+    font-size: 1.1rem;
+    /* margin-left: 40px; */
+    font-weight: 600;
+
+}
+.habit-description{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: .85rem;
+    font-weight: 400;
+
+}
+
+#hamburger{
+    width: 20px;
+    display: none;
+
+}
+
+/* >>>>.  Run section styles */
+
+.run{
+    background: #000;
+    padding-top: 88px;
+
+}
+
+.run-all{
+    border-radius: 18px;
+    background: #222;    
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+}
+.run-container{
+    gap: 10px;
+}
+.run-title{
+    font-size:2.65rem;
+    color: #FFF;
+    font-weight: 800;
+}
+.run-description{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: .85rem;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.run-btn{
+    border-radius: 42px;
+    background: #E6533C;
+    color: #FFF;
+    font-size: 1rem;
+    padding: 12px 40px;
+    border: none;
+    
+}
+.run-img{
+    width: 350px;
+}
+.run-img img{
+    width: 100%;
+    border-radius: 18px;
+}
+
+
+
+/* responsive for Smaller Devices (Mobile devices) */
+
+@media screen and (max-width:576px){
+    .nav-ul{
+        display: none;
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+        <rect x="10" y="34.4" width="28" height="3.2" fill="white"/>
+        <rect x="10" y="26.4" width="28" height="3.2" fill="white"/>
+        <rect x="10" y="18.4" width="28" height="3.2" fill="white"/>
+        <rect x="10" y="10.4" width="28" height="3.2" fill="white"/>
+      </svg>    
+    }
+    #hamburger{
+        display: block;
+    
+    }
+    .banner{
+        flex-direction: column;
+        width: 350px;
+    }
+    .card-b{
+        transform: translateX(200px);
+    }
+    .habits-container{
+        flex-direction: column;
+    }
+    .fit{
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 70%;
+    }
+    .run-all{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    
 }
